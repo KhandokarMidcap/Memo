@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "memo-process-dashboard-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/memoProcessDashboard/MemoProcessDashboardWebPart.js",
+          "manifest": "./src/webparts/memoProcessDashboard/MemoProcessDashboardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-1.12.4.min.js",
+      "globalName": "jQuery"
+    },
+    "datatables.net": {
+      "path": "https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    },
+    "moment": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js",
+    
+    "dataTables.rowGroup": {
+      "path" : "https://cdn.datatables.net/rowgroup/1.0.3/js/dataTables.rowGroup.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "MemoProcessDashboardWebPartStrings": "lib/webparts/memoProcessDashboard/loc/{locale}.js"
+  }
+}

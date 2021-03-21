@@ -1,0 +1,100 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+
+
+.FilesTable {
+
+
+  .Tr_Head {
+    th {
+      text-align: left;
+    }
+    
+    }
+    tr{
+      td{
+        span{
+      
+          font-size: 12px;
+          font-weight: bold;
+
+  
+
+          
+        }
+
+        border-top: 0px;
+      }
+    }
+  
+
+    .name-wrapper{
+      display:flex;
+      align-items:center;
+          .name-round{
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            background: #ddd;
+            color: #888;
+            border-radius: 50%;
+            padding: 15px;
+            width: 15px;
+            height: 15px;
+          }
+          .name-whole{
+            margin-left:5px;
+          }
+    }
+
+    .action-greem{
+      color: #28a745;
+    }
+    .action-yellow{
+      color: #bece35;
+    }
+    .action-purple{
+      color: #8435ce;
+      background: #888 !important;
+    }
+
+    .status-wrapper-green{
+      background: #f6ab08;
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 0px;
+    }
+
+    .status-wrapper-yellow{
+      background: #bece35;
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 0px;
+    }
+
+    .status-wrapper-purple{
+      background: #1dc360;
+      color: #fff;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}

@@ -1,0 +1,10 @@
+
+.Tr_Head th{
+text-align: left;
+}
+.GroupHeader td {
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: bold;
+}
+
